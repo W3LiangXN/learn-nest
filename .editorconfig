@@ -1,0 +1,25 @@
+# http://editorconfig.org
+root = true
+
+[*]
+# 缩进风格为空格
+indent_style = space
+
+# 缩进大小为2
+indent_size = 2
+
+# 行结束符使用LF（Unix风格）
+end_of_line = lf
+
+# 文件的字符集是UTF-8
+charset = utf-8
+
+# 保存文件时删除行尾的空白字符
+trim_trailing_whitespace = true
+
+# 文件的最后插入一个新的空行
+insert_final_newline = true
+
+[*.md]
+# 在Markdown文件中，保存文件时不删除行尾的空白字符
+trim_trailing_whitespace = false
